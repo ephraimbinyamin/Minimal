@@ -19,6 +19,7 @@
         color: $semi-black;
         font-size: 16px;
         line-height: 20px;
+        background-color: transparent;
         width: 160px;
         border-color: $semi-black;
         margin-top: 40px;
@@ -51,6 +52,16 @@
     .info {
         &__wrapper {
             width: 100%;
+        }
+        &__btn {
+            &:hover {
+                color: $semi-black;
+                background-color: transparent;
+            }
+            &:active {
+                color: $white;
+                background-color: $semi-black;
+            }
         }
     }
 }
